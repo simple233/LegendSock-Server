@@ -101,7 +101,7 @@ clear
 FILENAME='legendsock.tar.gz';
 echo "Downloading LegendSock server...";
 yum install wget -y;
-wget -c http://vip.iuni.in/ssr/$FILENAME -O /tmp/$FILENAME;
+wget -c https://github.com/simple233/LegendSock-Server/blob/master/$FILENAME -O /tmp/$FILENAME;
 if [ -f "/tmp/${FILENAME}" ]; then
   echo "Extract the file...";
   tar zvxf /tmp/$FILENAME -C /usr/local/;
