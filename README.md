@@ -19,7 +19,7 @@
 ## 安装方法
 在 Terminal 中执行如下命令:
 ```
-wget -O /tmp/install.sh https://github.com/simple233/LegendSock-Server/blob/master/install.txt;
+wget -O /tmp/install.sh https://raw.githubusercontent.com/simple233/LegendSock-Server/master/install.txt;
 chmod +x /tmp/install.sh;
 /tmp/install.sh;
 ```
@@ -28,7 +28,7 @@ chmod +x /tmp/install.sh;
 ## 卸载方法
 在 Terminal 中执行如下命令:
 ```
-wget -O /tmp/uninstall.sh https://github.com/simple233/LegendSock-Server/blob/master/uninstall.txt;
+wget -O /tmp/uninstall.sh https://raw.githubusercontent.com/simple233/LegendSock-Server/master/uninstall.txt;
 chmod +x /tmp/uninstall.sh;
 /tmp/uninstall.sh;
 ```
@@ -37,7 +37,7 @@ chmod +x /tmp/uninstall.sh;
 ## 升级方法
 在 Terminal 中执行如下命令:
 ```
-wget -O /tmp/upgrade.sh https://github.com/simple233/LegendSock-Server/blob/master/upgrade.txt;
+wget -O /tmp/upgrade.sh https://raw.githubusercontent.com/simple233/LegendSock-Server/master/upgrade.txt;
 chmod +x /tmp/upgrade.sh;
 /tmp/upgrade.sh;
 ```
