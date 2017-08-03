@@ -19,7 +19,7 @@
 ## 安装方法
 在 Terminal 中执行如下命令:
 ```
-wget -O /tmp/install.sh https://www.legendsock.com/box/server/install.txt;
+wget -O /tmp/install.sh https://github.com/simple233/LegendSock-Server/blob/master/install.txt;
 chmod +x /tmp/install.sh;
 /tmp/install.sh;
 ```
