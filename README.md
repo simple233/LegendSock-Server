@@ -28,7 +28,7 @@ chmod +x /tmp/install.sh;
 ## 卸载方法
 在 Terminal 中执行如下命令:
 ```
-wget -O /tmp/uninstall.sh https://www.legendsock.com/box/server/uninstall.txt;
+wget -O /tmp/uninstall.sh https://github.com/simple233/LegendSock-Server/blob/master/uninstall.txt;
 chmod +x /tmp/uninstall.sh;
 /tmp/uninstall.sh;
 ```
@@ -37,7 +37,7 @@ chmod +x /tmp/uninstall.sh;
 ## 升级方法
 在 Terminal 中执行如下命令:
 ```
-wget -O /tmp/upgrade.sh https://www.legendsock.com/box/server/upgrade.txt;
+wget -O /tmp/upgrade.sh https://github.com/simple233/LegendSock-Server/blob/master/upgrade.txt;
 chmod +x /tmp/upgrade.sh;
 /tmp/upgrade.sh;
 ```
