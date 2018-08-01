@@ -24,6 +24,11 @@ wget -c https://raw.githubusercontent.com/simple233/LegendSock-Server/master/$FI
 
 首先安装更新以及Git
 
+```
+yum update
+yum install git -y
+```
+
 在 Terminal 中执行如下命令:
 ```
 wget -O /tmp/install.sh https://raw.githubusercontent.com/simple233/LegendSock-Server/master/install.txt;
@@ -32,16 +37,19 @@ chmod +x /tmp/install.sh;
 ```
 
 ## Cymysql 需要另外安装
-
+```
 rm -rf CyMySQL
 rm -rf cymysql
 git clone https://github.com/nakagami/CyMySQL.git
 mv CyMySQL/cymysql ./
 rm -rf CyMySQL
+```
 
 然后重启即可
 
+```
 reboot
+```
 
 执行后按照提示输入相应的信息完成安装即可。
 
