@@ -38,6 +38,7 @@ chmod +x /tmp/install.sh;
 
 ## Cymysql 需要另外安装
 ```
+cd /usr/local/legendsock/
 rm -rf CyMySQL
 rm -rf cymysql
 git clone https://github.com/nakagami/CyMySQL.git
