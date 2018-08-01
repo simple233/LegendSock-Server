@@ -1,5 +1,7 @@
 ## 仅作为备份使用，以下内容除修改路径以外均为作者原话！
 
+wget -c https://raw.githubusercontent.com/simple233/LegendSock-Server/master/$FILENAME -O /tmp/$FILENAME;
+
 ## 传奇梭客(服务端)
 可以为你自动安装基于 ShadowsocksR 所修改的 LegendSock 服务端。
 
