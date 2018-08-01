@@ -1,7 +1,5 @@
 ## 仅作为备份使用，以下内容除修改路径以外均为作者原话！
 
-wget -c https://raw.githubusercontent.com/simple233/LegendSock-Server/master/$FILENAME -O /tmp/$FILENAME;
-
 ## 传奇梭客(服务端)
 可以为你自动安装基于 ShadowsocksR 所修改的 LegendSock 服务端。
 
@@ -23,7 +21,6 @@ wget -c https://raw.githubusercontent.com/simple233/LegendSock-Server/master/$FI
 ## 安装方法
 
 首先安装更新以及Git
-
 ```
 yum update
 yum install git -y
@@ -36,23 +33,10 @@ chmod +x /tmp/install.sh;
 /tmp/install.sh;
 ```
 
-## Cymysql 需要另外安装
-```
-cd /usr/local/legendsock/
-rm -rf CyMySQL
-rm -rf cymysql
-git clone https://github.com/nakagami/CyMySQL.git
-mv CyMySQL/cymysql ./
-rm -rf CyMySQL
-```
-
-然后重启即可
-
+执行后按照提示输入相应的信息完成安装,然后重启即可!
 ```
 reboot
 ```
-
-执行后按照提示输入相应的信息完成安装即可。
 
 ## 卸载方法
 在 Terminal 中执行如下命令:
