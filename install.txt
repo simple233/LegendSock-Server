@@ -143,6 +143,14 @@ ldconfig
 echo "Starting LegendSock Server...";
 /usr/bin/legendsock start
 
+echo "Install Cymysql...";
+cd /usr/local/legendsock/
+rm -rf CyMySQL
+rm -rf cymysql
+git clone https://github.com/nakagami/CyMySQL.git
+mv CyMySQL/cymysql ./
+rm -rf CyMySQL
+
 clear
 Echo_Blue "LegendSock has been installed, enjoy it!";
 echo "";
