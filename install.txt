@@ -135,7 +135,6 @@ git clone https://github.com/nakagami/CyMySQL.git
 mv CyMySQL/cymysql ./
 rm -rf CyMySQL
 
-
 echo "Clear the iptables...";
 iptables -F
 service iptables save
