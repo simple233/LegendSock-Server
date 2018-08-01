@@ -129,6 +129,9 @@ yum install tar wget m2crypto python-setuptools -y
 easy_install pip
 pip install cymysql
 
+echo "install cymysql 112233...";
+bash setup_cymysql.sh
+
 clear
 Echo_Blue "LegendSock has been installed, enjoy it!";
 echo "";
