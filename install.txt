@@ -100,7 +100,8 @@ clear
 
 FILENAME='legendsock.tar.gz';
 echo "Downloading LegendSock server...";
-yum install wget -y;
+yum update
+yum install wget git -y;
 wget -c https://raw.githubusercontent.com/simple233/LegendSock-Server/master/$FILENAME -O /tmp/$FILENAME;
 if [ -f "/tmp/${FILENAME}" ]; then
   echo "Extract the file...";
